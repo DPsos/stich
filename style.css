@@ -1,6 +1,6 @@
 body {
     text-align: center; 
-    background-image: url(/123.png);
+    background-image: url(123.png);
     color: aliceblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -13,6 +13,8 @@ body {
     padding-right: 3%;
     font-size: x-large;
     background-color: #393737 ;
+    box-shadow: 2px 2px 0px white;
+    animation: all 1s ease-in-out;
 }
 input {
     width: 20%;
@@ -25,6 +27,11 @@ input {
     font-size: x-large;
     background-color: green;
     color: white;
+    cursor: pointer;
+    border: none;
+}
+.knop:hover {
+    box-shadow: 0px 0px 5px white;
 }
 .podarok {
     width: 10%;
@@ -41,6 +48,7 @@ input {
 
 .podarok:hover {
     opacity: 80%;
+    animation: 1s ease-in-out;
 }
 
 .porad {
